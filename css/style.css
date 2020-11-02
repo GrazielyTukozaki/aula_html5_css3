@@ -1,0 +1,42 @@
+body {
+    background: rgb(252, 247, 250);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1, h2, h3 {
+    color: rgb(233, 62, 127);
+
+}
+header {
+    margin-top: 50px;
+}
+
+footer {
+    background: rgb(233, 62, 127);
+    margin-top:50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    color:white;
+
+}
+.imagem_modelo {
+    width: 300px;
+    margin-bottom: 20px;
+}
+#conteudo {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.menu > li{
+    display: block;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
